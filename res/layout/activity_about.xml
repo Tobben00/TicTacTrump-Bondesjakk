@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:background="#006699">>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textview_About"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:text="Hello and welcome!"
+            android:textColor="#FFFFFF"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/textview_About1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_About"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="68dp"
+            android:text="This is my first TicTacToe app created by Tobben00 from Westerdals Oslo ACT!"
+            android:textColor="#FFFFFF"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/textview_About2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="130dp"
+            android:text="In this game TrumpBot is unbeatable, well from rigth now he is beatable! only beacause i did not really finish the MiniMax AI behaviour in time.... For next update i will try implementing it! And after then YOU the player are not able to beat him! MOHAHA"
+            android:textColor="#FFFFFF"
+            android:textSize="19dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
