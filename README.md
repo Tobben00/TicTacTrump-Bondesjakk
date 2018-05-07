@@ -1,7 +1,7 @@
 # TicTacTrump-Bondesjakk
 Android Tic Tac Toe game / Bondesjakk
 
-Here is a complete base of a tic tac toe game in Android, AI uses random so if you want to make it a bit more intresting try implementing MiniMax AI.
+Here is a complete base of a tic tac toe game in Android, AI uses random so if you want to make it a bit more intresting try implementing MiniMax Algorithm.
 
 Norwegian: Ferdig base for bondesjakk til Android. 
 
